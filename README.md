@@ -10,14 +10,3 @@ for numbers that are multiples of both 3 and 5, print "FizzBuzz",
 print the rest of the numbers unchanged.
 Output each value on a separate line.
 Note that : This question is famous on the web, so to get more benefit from this assignment, try to complete this task on your own.
-
-
-for i in range(1,101):
-  if i%3==0 and i%5 !=0:
-    print("Fiz")
-  elif i%5==0 and i%3 !=0:
-    print("Buzz")
-  elif i%5==0 and i%3==0:
-    print("FizBuzz")
-  else:
-    print(i)  
